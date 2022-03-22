@@ -1,0 +1,30 @@
+{% load static %}
+
+h1 {
+text-align: center;
+display: block;
+margin-top: 4em;
+margin-bottom: 1em;
+font-weight: bold;
+
+}
+p {text-align: center;}
+div {text-align: center;}
+
+.bg {
+  /* The image used */
+  background-image: url('../todoapp/images/card.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="text"]
+{
+    background: transparent;
+}
